@@ -1,0 +1,32 @@
+.rooms-list {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #5ea3d0;
+  overflow: scroll;
+  height: 100%;
+}
+
+.rooms-list > ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: scoll;
+}
+
+.rooms-list li {
+  margin: 10px 0;
+}
+
+.rooms-list > h3 {
+  margin: 5px 0;
+  color: white;
+}
+
+.rooms-list .room a {
+  color: #b0c7d6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.rooms-list .room.active a {
+  color: white;
+}

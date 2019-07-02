@@ -1,0 +1,22 @@
+.new-room-form {
+  padding: 0 5px;
+  background: white;
+  color: #3e5869;
+}
+
+.new-room-form form {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-room-form input {
+  width: 135px;
+  background: white;
+}
+
+.new-room-form button {
+  background: white;
+  color: #3e5869;
+}
