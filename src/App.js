@@ -24,7 +24,7 @@ class App extends React.Component {
       }
       currentUser = user;
     });
-    const response = await axios.get(`https://api-${APP_ID}.sendbird.com/v3/users/siva/my_group_channels`, {
+    const response = await axios.get(`https://api-${APP_ID}.sendbird.com/v3/open_channels`, {
         headers: {
            'Api-Token': API_TOKEN
         }
